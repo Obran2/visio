@@ -4,19 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visioconférence</title>
+    <title>Visio Accueil</title>
     <link rel="stylesheet" href="donnee\visio.css">
 </head>
 <body>
+    <header>
         <h1>Visioconférence</h1>
+        <div class="logo">logo</div>
+        <div id="status-pointer" class="pointer">status</div>
+        <span id="count-people" class="count">count</span>
+        <div class="menu-btn" onclick="openMenu()">Menu</div>
+  <script src="donnee/visio.js"></script>
     </header>
+    <div id="menu" class="menu">
+        <a href="#">Contact</a><br>
+        <a href="#">A propos de...</a><br>
+        <a href="#">Localisation</a><br>
+        <a href="#">Localisation</a>
+    </div>
 
     <main>
         <!-- Contenu de la visioconférence -->
     </main>
 
-    <footer>
-        <p>&copy; 2021 Visioconférence. Tous droits réservés.</p>
+
+    <footer class="footer-area black-bg-color">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-footer-widget bg-f9f5f1">
+                    <ul class="address mb-3">
+                        <li class="location">
+                            <i class="ri-map-pin-line"></i>
+                            <span>Libreville, Gabon</span>
+                        </li>
+                        <li>
+                            <i class="ri-mail-line"></i>
+                            <a href="mailto:contact@esiitech-gabon.com ">
+                                <span class="__cf_email__" data-cfemail="a4cdcac2cbe4d1cac7cb8ac7cbc9">
+                                    contact@esiitech-gabon.com
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <i class="ri-phone-line"></i>
+                            <a href="tel:+24176348516">(+241) 7623 7638</a>
+                        </li>
+                    </ul>
+                    <ul class="social-icon">
+                        <li>
+                            <span>Suivez-nous</span>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Téléchargement</h3>
+                    <ol class="import-link">
+                        <li>
+                            <a href="https://esiitech-gabon.com/images/documents/ReglementInterieurV1.pdf" target="_blank">Règlement intérieur</a>
+                        </li>
+                        <li>
+                            <a href="https://esiitech-gabon.com/images/documents/charteinfo.pdf" target="_blank">Charte informatique</a>
+                        </li>
+                        <li>
+                            <a href="https://esiitech-gabon.com/images/documents/PolitiqueSecuriteSanitaireV1.pdf" target="_blank">Politique sanitaire</a>
+                        </li>
+                        <li>
+                            <a href="https://esiitech-gabon.com/images/documents/Charte du partenariat.pdf" target="_blank">Charte de partenariat</a>
+                        </li>
+                        <li class="py-4"></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-footer-widget">
+                    <h3>Accès plateformes</h3>
+                    <ul class="import-link">
+                        <li>
+                            <a href="https://foad.esiitech-gabon.com/" target="_blank">Plateforme pédagogique foad</a>
+                        </li>
+                        <li>
+                            <a href="https://bbb.esiitech-gabon.com/b" target="_blank">Plateforme de visio conférence</a>
+                        </li>
+                        <li>
+                            <a href="https://sauce.o2switch.net:2096/webmaillogout.cgi" target="_blank">Messagerie électronique</a>
+                        </li>
+                        <li class="py-5"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-footer-widget">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <h3>Newsletter</h3>
+                            <p>Inscrivez-vous à notre newsletter pour ne rater aucune information.</p>
+                            <input type="email" class="form-control bg-white" required placeholder="Entrez votre email">
+                            <button type="submit" class="default-btn my-3" disabled><span>Envoyer</span></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <p>&copy; 2024 Visioconférence. Tous droits réservés.</p>
     </footer>
+
 </body>
 </html>
